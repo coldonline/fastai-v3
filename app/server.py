@@ -9,7 +9,9 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=15Il_HcCu8OqHLDGtkIpCu_Ve4jKbhJlL'
+#export_file_url = 'https://drive.google.com/uc?export=download&id=15Il_HcCu8OqHLDGtkIpCu_Ve4jKbhJlL'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-8bicurRwOXDs7Tv5QsCpw_aDkS0HgRg'
+
 export_file_name = 'export.pkl'
 
 classes = ['adidas','Reebok','Nike']
